@@ -1,0 +1,47 @@
+Exercises
+
+Scripting Mini-Challenges
+These demonstrate basic skill level of scripting.
+
+
+1. List User Accounts (Level 2)
+List all the users in alphabetical order in /etc/passwd file.
+
+
+$ ./names
+sally
+jason
+nobody
+dnsmasq
+
+
+2. Shell Count (Level 5)
+List The Shells and # of Users Per Shell from /etc/passwd
+
+
+$ ./shells
+/bin/bash: 5
+/bin/ksh: 2
+/bin/false: 10
+/user/sbin/nologin: 5
+
+
+3. List Groups (Level 3)
+List group membership by group /etc/group.  If no member is different that group name, omit it.  Only list groups that have users with different user name.
+
+
+$ ./groups
+adm: syslog, howard
+docker: howard
+vboxusers: howard
+Sudo: howard
+plugdev: howard
+
+
+4. List User’s group Membership (Level 5)
+List group membership sorted by user from /etc/group.
+
+
+$ ./membership
+howard: adm, docker, vboxusers, sudo, plugdev
+syslog: adm

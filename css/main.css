@@ -1,0 +1,85 @@
+< !-- CSS file, CSS lives here. tweak -->
+
+h2 {
+  border: 1px solid #AAAAAA;
+}
+
+h3 {
+  padding-left: 10px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+a {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+.firstHeader {
+  background-color: #b56662;
+  width: auto;
+  margin: 0 auto 0 auto;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.firstHeader a {
+  color: #ffffff;
+}
+
+.firstNav {
+  text-align: center;
+}
+
+.firstNav li {
+  display: inline;
+}
+
+body {
+  padding: 0 0 0 0;
+  background: #d9d9d9;
+}
+  /*        For putting a bg image in, use url tag, then location etc
+          I'll also set a bg color in case image fails to load. We dont
+          need quotes around the image inside bg. BG can be all combined
+          as shown below background: color image position repeate;
+  */
+  /* Normally I"d go
+   background: #d9d9d9 url(web_images/img.jpg) top left repeat;
+   to make an image print out starting from top left, then repaeat
+   across whole page, in this case I'm just using bg color.
+   */
+
+.main-content {
+  border: 1px solid #AAAAAA;
+  width: 700;
+  margin: 0 auto 0 auto;
+  background-color: white;
+}
+
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*-- Make the photos display inline */
+
+.photos li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.veggies {
+  list-style-type: none;
+}
+
+.veggies li {
+  height: 160px;
+}
+
+.veggies img {
+  float: left;
+  padding-right: 10px;
+}

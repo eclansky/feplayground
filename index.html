@@ -1,0 +1,76 @@
+<!-- HTML practice
+
+Practice
+HTML template
+heading tags, higer ther number, organize content
+Use indentation to iundicate parent/child relationship
+Unordered lists
+ordered lists
+<!DOCTYPE html> tells it to use latest version
+<a> tag is anchor tag, anything inside is clickable
+href is an html attribute
+target attribute, sets where page opens when link is clicked
+  _blank opens in new page
+  _self - replace current open page (default)
+value of attribute should be in quotes
+
+
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  Padding: 0;
+  Border: 0;
+  Margin: 0;
+}
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ethan's first page</title>
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+  <script src="scripts/scripty.js"></script>
+</head>
+
+<body>
+  <div class="firstHeader">
+    <h1>이든즈 월드 (Ethan's World)</h1>
+    <ol class="firstNav">
+      <li><a href="index.html">Home - </a></li>
+      <li><a href="krfood.html">Korean Food - </a></li>
+      <!-- absolute path below, giving the http:// -->
+      <li><a href="http://www.eclansky.com" target="_blank">My Personal site</a></li>
+    </ol>
+  </div>
+  <!-- li is the daughter tag, ol is parent-->
+  <div class="main-content">
+    <h3> Topics </h3>
+    <ul>
+      <li>Remote Job Preparation</li>
+      <li>Bunnies</li>
+      <li>Cool sites</li>
+    </ul>
+
+    <h3>Getting remote job leads to</h3>
+    <ol>
+      <li>Being able to get remote Opportunities as seen on <a href="http://www.remoteok.io">remoteok.io</a></li>
+      <li>'Actual' cash inflow to keep building savings while i'm abroad.</li>
+      <li>Build skillset/arsenal, perhaps go FE path instead of DevOps, or in addition to.</li>
+    </ol>
+    <h3>Do you like bunnies?</h3>
+    <!-- put my pics in an unordered list so I can change the layout easily, to inline eg-->
+    <ul class="photos">
+      <li><img src="web_images/bunny2.jpg" alt="Cute bunny pic" width="300"></li>
+      <li><img src="web_images/bunnydouble.jpg" alt="2nd cute bunny" width="300"></li>
+    </ul>
+    <br>
+    <h3>Cool sites I like</h3>
+    <ul>
+      <li><a href="www.gemini.com">Gemini</a> - A top BTC trading site with very reasonable fees.</li>
+      <li><a href="http://www.nytimes.com" target="_blank">NyTimes</a> - Still delivering good quality news</li>
+      <li><a href="http://www.theverge.com">Theverge.com</a> - Lots of cool tech news in a visually sexy interface</li>
+    </ul>
+    <br>
+    <h2>
+    </div>
+  </body>
+</html>

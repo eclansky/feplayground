@@ -1,0 +1,6 @@
+nobody: /usr/bin/false
+root: /bin/sh
+daemons: /usr/bin/false
+htsukada: /bin/bash
+smuso: /bin/csh
+saihara: /usr/bin/ksh
