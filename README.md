@@ -1,7 +1,7 @@
-Repo for practicing and learning scripting.
+Repo for practicing and learning FE tools
 ===========
 
-Doing exercises in Bash and Python to level up.
+FE Projects to showcase FE skillset
 
 # Wilkommen to my readme page.
 ## What's here?
@@ -9,7 +9,7 @@ Doing exercises in Bash and Python to level up.
 * python
 * Front End practice/learning
   * HTML
-  * CSS
+  * CSS / bootstrap
   * Javascript & JQuery
 
 
