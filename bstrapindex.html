@@ -10,24 +10,37 @@
 </head>
 
 <body>
-  <!-- setup the grid formation. we include at least class xs and medium ones at least (phone and laptop) -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>XCOR Jet Airline</h1></div>
+  <!-- Build the navigation bar, which stays at the top -->
+  <div class="navbar navbar-default navbar-static-top">
+    <!-- embed the container instead of having it in topmost div to center nav content -->
+    <div class="container">
+      <a href='/' class='navbar-brand'>XCOR Jet Airline</a>
+        <ul class='nav navbar-nav navbar-right'>
+          <li><a href="/">Home</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
+          <li><a href="stations.html">Stations</a></li>
+        </ul>
     </div>
+  </div>
+
+
+    <!-- Row made of buttons + pic -->
     <div class="row">
       <div class="well col-md-6">
         <h2>Speed. Comfort. Think XCOR</h2>
         <p class='lead'>Our cutting-edge jets get you there fast and in comfort. Get started below.</p>
         <button type="button" class='btn btn-lg btn-default'>Take the Tour</button>
-        <button type="button"class='btn btn-lg btn-primary'>Book Tickets now</button>
+        <button type="button" class='btn btn-lg btn-primary'>Book Tickets now</button>
       </div>
       <!-- Now lets use the visible-* class to only show the image on large enough displays-->
       <div class="col-md-6 visible-md visible-lg">
-        <img src="web_images/rocket.jpg" alt="Rocket pic" height="200" width="500">
+        <img src="web_images/rocket.jpg" alt="Rocket pic" height="230" width="500">
       </div>
     </div>
+  </div>
+
+  <!-- Container just for the features -->
+  <div class="container-fluid">
     <div class="row features text-center">
       <!--Control how the layout looks on the page on xs and medium devices, using md and xs -->
       <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0"><i class='glyphicon glyphicon-briefcase'></i>
@@ -55,12 +68,6 @@
           <p><a href='about.html'>More About Us<i class='glyphicon glyphicon-arrow-right'></i></a></p>
         </div>
         <div class="col-sm-4 col-xs-offset-1 col-sm-offset-0">
-          <h4>Links</h4>
-          <ul class='list-unstyled'>
-            <li><a href="/">Home</a></li>
-            <li><a href="tickets.html">Tickets</a></li>
-            <li><a href="stations.html">Stations</a></li>
-          </ul>
         </div>
       </div>
     </div>
@@ -68,8 +75,8 @@
 
 
 
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src='js/bootstrap.min.js'></script>
 </body>
 
 </html>
